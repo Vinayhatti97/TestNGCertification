@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+<!--    <test verbose="2" preserve-order="true" name="TestOnChrome">-->
+<!--        <parameter name="Browser" value="chrome"/>-->
+<!--        <parameter name="Version" value="88.0"/>-->
+<!--        <parameter name="Platform" value="Windows 10"/>-->
+<!--        <classes>-->
+<!--            <class name="TestClass.TestClassTestNG">-->
+<!--                <methods>-->
+<!--                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>-->
+<!--                    <include name="scenarioOne"/>-->
+<!--                    <include name="scenarioTwo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="TestOnChromeScenarioThree">-->
+<!--        <parameter name="Browser" value="chrome"/>-->
+<!--        <parameter name="Version" value="88.0"/>-->
+<!--        <parameter name="Platform" value="Windows 10"/>-->
+<!--        <classes>-->
+<!--            <class name="TestClass.TestClassTestNG">-->
+<!--                <methods>-->
+<!--                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>-->
+<!--                    <include name="scenarioThree"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test verbose="2" preserve-order="true" name="TestOnEdge">-->
+<!--        <parameter name="Browser" value="edge"/>-->
+<!--        <parameter name="Version" value="87.0"/>-->
+<!--        <parameter name="Platform" value="macOS Sierra"/>-->
+<!--        <classes>-->
+<!--            <class name="TestClass.TestClassTestNG">-->
+<!--                <methods>-->
+<!--                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>-->
+<!--                    <include name="scenarioOne"/>-->
+<!--                    <include name="scenarioTwo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="TestOnEdgeScenarioThree">-->
+<!--        <parameter name="Browser" value="edge"/>-->
+<!--        <parameter name="Version" value="87.0"/>-->
+<!--        <parameter name="Platform" value="macOS Sierra"/>-->
+<!--        <classes>-->
+<!--            <class name="TestClass.TestClassTestNG">-->
+<!--                <methods>-->
+<!--                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>-->
+<!--                    <include name="scenarioThree"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+    <test verbose="2" preserve-order="true" name="TestOnFirefox">
+        <parameter name="Browser" value="firefox"/>
+        <parameter name="Version" value="82.0"/>
+        <parameter name="Platform" value="Windows 7"/>
+        <classes>
+            <class name="TestClass.TestClassTestNG">
+                <methods>
+                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>
+                    <include name="scenarioOne"/>
+                    <include name="scenarioTwo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="TestOnFirefoxScenarioThree">
+        <parameter name="Browser" value="firefox"/>
+        <parameter name="Version" value="82.0"/>
+        <parameter name="Platform" value="Windows 7"/>
+        <classes>
+            <class name="TestClass.TestClassTestNG">
+                <methods>
+                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>
+                    <include name="scenarioThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!--    <test verbose="2" preserve-order="true" name="TestOnInternetExplorer">-->
+<!--        <parameter name="Browser" value="internetExplorer"/>-->
+<!--        <parameter name="Version" value="11.0"/>-->
+<!--        <parameter name="Platform" value="Windows 10"/>-->
+<!--        <classes>-->
+<!--            <class name="TestClass.TestClassTestNG">-->
+<!--                <methods>-->
+<!--                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>-->
+<!--                    <include name="scenarioOne"/>-->
+<!--                    <include name="scenarioTwo"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="TestOnInternetExplorerScenarioThree">-->
+<!--        <parameter name="Browser" value="internetExplorer"/>-->
+<!--        <parameter name="Version" value="11.0"/>-->
+<!--        <parameter name="Platform" value="Windows 10"/>-->
+<!--        <classes>-->
+<!--            <class name="TestClass.TestClassTestNG">-->
+<!--                <methods>-->
+<!--                    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>-->
+<!--                    <include name="scenarioThree"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
