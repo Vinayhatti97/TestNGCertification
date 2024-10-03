@@ -16,6 +16,7 @@
             </class>
         </classes>
     </test>
+
     <test verbose="2" preserve-order="true" name="TestOnChromeScenarioThree">
         <parameter name="Browser" value="chrome"/>
         <parameter name="Version" value="88.0"/>
